@@ -1,0 +1,350 @@
+/* start style body */ 
+html, body {
+  direction: rtl;
+  padding: 0;
+  margin: 0;
+  font-family: 'vazir';
+  font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none;
+  &:hover {
+
+  }
+  &:active {
+
+  }
+}
+* {
+  box-sizing: border-box;
+}
+$maincolor: #b30017;
+$secondcolor: #ffffff;
+$bordercolor: #d9d9d9;
+/* end style body */ 
+/*  start style wrapper */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 8px;
+    &::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+}
+/* end style wrapper */
+/* start style font_face */
+// @font-face {
+//   font-family: 'vazir';
+//   src: url("../node_modules/vazir-font/dist/Vazir-Light.ttf") format("ttf"),
+//   url("../node_modules/vazir-font/dist/Vazir-Thin.woff2") format("woff2"),
+//   url("../node_modules/vazir-font/dist/Vazir-Thin.woff") format("woff");
+//   font-weight: normal;
+//   font-style: normal;
+// }
+/* end style font_face */
+/* start style container */
+.container {
+  &::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+}
+/* end style container */
+/* start style main_header */
+.main_header {
+  margin-bottom: 24px;
+  .date_out {
+    background-color: $maincolor;
+  }
+  .date_header {
+    text-align: left;
+    padding: 2px 0;
+    margin-left: 52px;
+    .date_global {
+    font-size: 12px;
+    color: $secondcolor;
+    padding-left: 4px;
+    border-left: 2px solid #fff;
+    }
+    .date_persian {
+      font-size: 12px;
+      color: $secondcolor;
+      padding-right: 8px;
+      }
+  }
+  .menu_header {
+    .main_menu {
+      display: none;
+    }
+    .icon_menu {
+      display: block;
+    }
+  }
+  .socil_out_header {
+    border-bottom: 1px solid $bordercolor;
+    background-color: $secondcolor;
+  }
+  .contact_menu {
+    background-color: $secondcolor;
+    .tiny_menu {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        a {
+          padding: 6px 16px;
+          display: block;
+          text-decoration: none;
+          text-align: center;
+          color: #000000;
+          font-size: 12px;
+          &:hover {
+            background-color: #eeeeee;
+          }
+        }
+      }
+    }
+  }
+  .social_icon {
+    text-align: left;
+    margin-left: 0;
+    ul {
+      list-style-type: none;
+    li {
+      display: inline-block;
+      padding: 9px 8px;
+    a {
+      text-decoration: none;
+      color: #000000;
+      transition: 2s;
+      &:hover {
+        color: $maincolor;
+      }
+      i {
+        font-size: 12px;
+        display: block;
+      }
+    }
+  }
+  }
+  }
+  .logo_out {
+    text-align: center;
+    background-color: $secondcolor;
+    border-bottom: 1px solid $bordercolor;
+    .logo {
+      
+    }
+}
+.menu_header_out {
+  border-bottom: 1px solid $bordercolor;
+}
+  .main_menu_header{
+    background-color: $secondcolor;
+    list-style-type: none;
+    position: relative;
+    .item {
+      display: inline-block;
+      padding: 4px 12px;
+      &:hover {
+        background-color: #eeeeee;
+      }
+      .item_tag {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #000000;
+        font-size: 14px;
+      }
+    }
+    .active {
+      color: #b10016;
+    }
+    .sub_menu {
+      list-style-type: none;
+      position: absolute;
+      top: 30px;
+      background-color: #eeeeee;
+      border-top: 1px solid $bordercolor;
+      li {
+        display: block;
+        padding: 4px;
+        a {
+          @extend .item_tag;
+        
+        }
+      }
+    }
+    .sub_menu {
+      display: none;
+    }
+    .least_item:hover .sub_menu {
+      display: block;
+    }
+  }
+  .search {
+    text-align: left;
+    a {
+      font-size: 14px;
+      border-bottom: 1px solid #000000;
+      border-top: 1px solid #000000;
+      display: inline-block;
+      padding: 3px 2px;
+      &:hover {
+        background-color: $maincolor;
+        color: #fff;
+      }
+    }
+  }
+  .icon_bar {
+    position: absolute;
+    right: 29px;
+    padding: 6px;
+    a { 
+    display: inline-block;
+    &:hover {
+      color: #fff;
+      background-color: $maincolor;
+    }
+  }
+}
+}
+/* end style main_header */
+/* start style main */
+/* start style section_1 */
+.section_1 {
+  .column_1 {
+    padding-left: 24px;
+      .section_inner {
+        
+      }
+      .second_news {
+        margin: 16px 0;
+      }
+      .img_top_news {
+        
+        .img {
+          display: block;
+        }
+        .content_top_news {
+          
+        }
+      }
+        .writer_news_part {
+          
+        }
+        .interview_part {
+          
+        }
+        .selectedـnews_part {
+          
+        }
+      .report_part {
+        
+      }
+    }
+  .column_2 {
+    .section_indoor {
+      
+      .article {
+        list-style-type: none;
+        .article_list {
+          display: block;
+          a {
+            display: block;
+            text-decoration: none;
+          }
+        }
+        .first_article {
+          height: 360px;
+        }
+      }
+    }
+    .title_article {
+      margin-top: 16px;
+    }
+  }
+  }
+/* end style section_1 */
+/* start style section_2 */
+.section_2 {
+  margin: 16px 0;
+  .title_video {
+    
+  }
+  .column_video {
+    padding-left: 24px;
+    .video_play {
+      
+    }
+
+  }
+  .column_videio_list {
+    
+    .menu_video {
+    list-style-type: none;
+    .menu_list {
+      
+      .video_tag {
+        display: block;
+        text-decoration: none;
+      }
+    }
+    }
+    .video_bar {
+      
+    }
+  }
+}
+/* end style section_2 */
+/* start style section_3 */
+.section_3 {
+  
+  .podcast_part {
+    .menu_podcast {
+      list-style-type: none;
+      .podcast_list {
+        
+        a {
+          display: block;
+          text-decoration: none;
+        }
+      }
+    }
+  } 
+  .reportـimage {
+    padding: 0 16px;
+  }
+  .cartoon {
+    .menu_cartoon {
+      list-style-type: none;
+      .cartoon_list {
+        float: right;
+        width: 50%;
+        a {
+          display: block;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+/* end style section_3 */
+/* end style main */
+/* end style main_footer */
+/* end style main */
+.main_footer {
+  margin-top: 42px;
+}
+/* end style main_footer */

@@ -1,0 +1,135 @@
+/* start style item_column_2 */ 
+.second_article_img {
+    float: right;
+    width: 20%;
+}
+.second_article_content {
+    float: right;
+    width: 80%;
+}
+/* end style item_column_2 */ 
+/* start style header */ 
+.socil_out_header {
+  .contact_menu {
+    float: right;
+    width: 50%;
+  }
+  .social_icon {
+    float: right;
+    width: 50%;
+  }
+}
+/* start style menu_video */
+.video_part {
+  float: right;
+  width: 40%;
+}
+.content_video {
+  float: right;
+  width: 60%;
+}
+.icon_bar {
+  display: block;
+}
+/* end style menu_video */
+/* end style header */
+/* start style podcast */ 
+.podcast_list {
+  float: right;
+  width: 50%;
+}
+/* end style podcast */ 
+/* start style cartoon */ 
+.cartoon_list {
+  float: right;
+  width: 50%;
+}
+/* end style cartoon */
+/* start style media(min-width:768px) */ 
+@media screen and (min-width:768px) {
+  .main_header {
+    .menu_header {
+      .main_menu {
+        display: block;
+        float: right;
+        width: 85%;
+      }
+      .search {
+        float: right;
+        width: 15%;
+      }
+      .icon_bar {
+        display: none;
+      }
+    }
+  }
+  .column_1 {
+    width: 60%;
+    float: right;
+    .img_top_news {
+      float: right;
+      width: 65%;
+    }
+    .content_top_news {
+      float: right;
+      width: 35%;
+    }
+    .writer_news_part {
+      float: right;
+      width: 50%;
+    }
+    .interview_part {
+      float: right;
+      width: 50%;
+    }
+    .selectedـnews_part {
+      float: right;
+      width: 50%;
+    }
+    .report_part {
+      float: right;
+      width: 50%;
+    }
+  }
+  .column_2 {
+    width: 40%;
+    float: right;
+  }
+  .column_video {
+    width: 60%;
+    float: right;
+  }
+  .column_videio_list {
+    width: 40%;
+    float: right;
+  }
+  .podcast {
+  width: 30%;
+  float: right;
+  }
+  .reportـimage {
+  width: 40%;
+  float: right;
+  }
+  .cartoon {
+  width: 30%;
+  float: right;
+  }
+}
+.nav_footer {
+  float: right;
+  width: 80%;
+}
+.logo_aasam {
+  float: right;
+  width: 20%;
+}
+.social_footer {
+  float: right;
+  width: 50%;
+}
+.icon_footer {
+  float: right;
+  width: 50%;
+}
+/* end style media(min-width:768px) */ 
